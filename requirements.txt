@@ -1,0 +1,7 @@
+pymupdf 
+transformers 
+supabase 
+sentence-transformers
+tqdm 
+python-dotenv
+langchain
