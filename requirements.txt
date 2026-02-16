@@ -5,3 +5,4 @@ sentence-transformers
 tqdm 
 python-dotenv
 langchain
+langchain-text-splitters

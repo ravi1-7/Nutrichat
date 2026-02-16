@@ -8,7 +8,7 @@ from sentence_transformers import SentenceTransformer
 from transformers import AutoTokenizer, AutoModel
 from tqdm import tqdm
 from dotenv import load_dotenv, find_dotenv
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 # ---- Load environment
 load_dotenv(find_dotenv(usecwd=True))

@@ -10,7 +10,7 @@ const EMBEDDING_MODEL = "qwen3-embedding:0.6b"; // or your Qwen model name
 
 // Inference model endpoint (Gemma) - update with your actual endpoint
 const INFERENCE_API_URL = process.env.INFERENCE_API_URL || "http://localhost:11434/api/chat";
-const INFERENCE_MODEL = "gemma3n:e4b"; // or your Gemma model name
+const INFERENCE_MODEL = "llama3:8b"; // or your Gemma model name
 
 // Service role key is server-only; never import this file on the client.
 const supabase = createClient(

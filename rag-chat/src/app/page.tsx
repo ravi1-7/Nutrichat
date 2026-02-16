@@ -27,14 +27,14 @@ export default function Home() {
 
   return (
     <main className="p-6 max-w-3xl mx-auto">
-      <h1 className="text-2xl font-bold mb-4">Nutrition RAG Chat</h1>
+      <h1 className="text-2xl font-bold mb-4">RAG Chat</h1>
 
       <div className="space-y-3 mb-4">
         {messages.map((m, i) => (
           <div key={i} className={m.role === "user" ? "text-right" : "text-left"}>
             <div className={`inline-block px-4 py-2 rounded-lg ${m.role === "user"
-                ? "bg-blue-600 text-white"
-                : "bg-gray-200 text-gray-900 dark:bg-gray-800 dark:text-white"
+              ? "bg-blue-600 text-white"
+              : "bg-gray-200 text-gray-900 dark:bg-gray-800 dark:text-white"
               }`}>
               {m.content}
             </div>
@@ -48,7 +48,7 @@ export default function Home() {
           value={input}
           onChange={e => setInput(e.target.value)}
           onKeyDown={e => e.key === "Enter" && send()}
-          placeholder="Ask about the nutrition PDF..."
+          placeholder="Ask about anything..."
           disabled={busy}
         />
         <button onClick={send} disabled={busy} className="bg-blue-600 text-white px-4 rounded">
