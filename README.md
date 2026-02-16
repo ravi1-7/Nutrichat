@@ -61,8 +61,8 @@ SUPABASE_SERVICE_ROLE_KEY=<your-service-role-key>
 ```
 SUPABASE_URL=<your-supabase-url>
 SUPABASE_SERVICE_ROLE_KEY=<your-service-role-key>
-EMBEDDING_API_URL=http://localhost:11434/api/embeddings
-INFERENCE_API_URL=http://localhost:11434/api/chat
+EMBEDDING_API_URL=
+INFERENCE_API_URL=
 ```
 
 ### 3. Ingest the PDF
